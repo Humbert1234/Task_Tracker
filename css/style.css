@@ -1,0 +1,35 @@
+.Main{
+    margin:7rem 25rem 0rem 25rem;
+    padding:2rem 1rem 2rem 1rem;
+    border:none;
+    border-radius:8px;
+    background:cornsilk;
+
+    h3{
+        text-align: center;
+        margin:1rem 0 3rem 0;
+    }
+    form{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        .Task_text{
+            height: 3rem;
+            height: 3rem;
+            border: 1px solid rgba(195,195,195,0.5);
+            border-radius:5px;
+
+        }
+
+        #Time{
+            border: 1px solid rgba(195,195,195,0.5);
+            border-radius:5px;
+        }
+        #Add_task{
+            border: 1px solid rgba(195,195,195,0.5);
+            border-radius:5px;
+            background: limegreen;
+            color: white;
+        }
+    }
+}
