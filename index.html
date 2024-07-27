@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main class="Main">
-        <h3>Task Tracker</h3>
-        <form id="form">
-            <input type="text" class="Task_text" placeholder="Task Title">
-            <textarea name="TaskDescription" placeholder="Task Description" id="Description"></textarea>
-            <input type="datetime-local" id="Time">
-            <input type="button" value="Add Task" id="Add_task">
-        </form>
-        <div id="Output"></div>
-    </main>
+    <div class="container">
+        <h1>Task Tracker</h1>
+        <div class="task-input">
+            <input type="text" id="taskTitle" placeholder="Task Title">
+            <textarea id="taskDescription" placeholder="Task Description"></textarea>
+            <input type="datetime-local" id="taskDueDate">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+        <div class="task-list" id="taskList"></div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
